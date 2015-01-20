@@ -11,20 +11,9 @@
     </section>
     <section>
       <ul>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
-        <li>Content. Content. Content. </li>
+        <li><button data-detail='{"name":"product1", "cost": "10"}'>Product 1</button></li>
+        <li><button data-detail='{"name":"product2", "cost": "20"}'>Product 2</button></li>
+        <li><button data-detail='{"name":"product3", "cost": "30"}'>Product 3</button></li>
       </ul>
     </section>
   </article>
@@ -33,3 +22,7 @@
   </footer>
 </body>
 </html>
+<script src="setup.js"></script>
+<script src="basketLogger.js"></script>
+<script src="basketSimpleManager.js"></script>
+<script src="basketStorageManager.js"></script>
