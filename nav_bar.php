@@ -6,5 +6,4 @@
       <a href="Page5.html" accesskey="5">Page 5</a>
       <a href="Page6.html" accesskey="6">Page 6</a>
       <a href="Page7.html" accesskey="7">Page 7</a>
-      <button type="button" id="checkout">Checkout</button>
   </nav>
