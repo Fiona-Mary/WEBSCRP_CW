@@ -1,0 +1,81 @@
+*{
+  font-family: 'calibri','ariel','trebuchet ms';
+}
+/* Page header*/
+#HeadBar{
+  left: -1em;
+  right: -1em;
+  height: 8em;
+  top: 0em;
+  position: fixed;
+  background:rgba(172,206,205,1);
+
+  margin: 0em auto;
+}
+#HeadBar h1{
+  font-size: 200%;
+  color:rgba(84,171,143,1);
+  text-indent: 2em;
+}
+#HeadBar p{
+  font-size: 125%;
+  color:rgba(250,255,252,1);
+  text-indent: 5em;
+}
+
+/*main navigation bar*/
+#navigation{
+  padding: 0.5em;
+  margin: 0em;
+  position: fixed;
+  top: 12em;
+  left:1em;
+  margin-top: -2.5em;
+}
+#navigation a, button{
+  box-shadow: 2.5px 2.5px 1.5px 0.5px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 0.5em;
+  background: rgba(138,21,27,1);
+  color: rgba(188,99,103,1);
+  transition: 1s;
+  display:block;
+  width: 5em auto;
+  height: 3em auto;
+  margin:0.25em;
+}
+#navigation a:hover, button:hover{
+  background: rgba(122,22,46,1);
+  color: rgba(255,255,255,1);
+}
+article h1{
+  font-size: 150%;
+  color:rgba(220,91,33,1);
+}
+ul{
+  margin: 0.5em;
+  padding: 0.5em;
+}
+section{
+  margin: 0.5em;
+  padding:0.5em;
+  border-radius: 10px;
+  border-style: solid;
+  border-width:0.15em;
+  border-color: rgba(255,255,0,1);
+  background: rgba(222,222,219,1);
+  text-align: left;
+}
+#PageContent{
+  top: 10em;
+  left: 7em;
+  right: 1em;
+  position:absolute;
+}
+#PageContent p{
+  padding:0.5em;
+}
+body{
+  background:rgba(37,37,38,1);
+}
