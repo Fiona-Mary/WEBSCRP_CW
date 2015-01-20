@@ -8,8 +8,7 @@
   height: 8em;
   top: 0em;
   position: fixed;
-  background:rgba(172,206,205,1);
-
+  background:rgba(42,43,45,1);
   margin: 0em auto;
 }
 #HeadBar h1{
@@ -37,8 +36,8 @@
   border-radius: 5px;
   text-decoration: none;
   padding: 0.5em;
-  background: rgba(138,21,27,1);
-  color: rgba(188,99,103,1);
+  background: rgba(42,43,45,1);
+  color: rgba(228,219,191,1);
   transition: 1s;
   display:block;
   width: 5em auto;
@@ -46,8 +45,8 @@
   margin:0.25em;
 }
 #navigation a:hover, button:hover{
-  background: rgba(122,22,46,1);
-  color: rgba(255,255,255,1);
+  background: rgba(84,171,143,1);
+  color: rgba(42,43,45,1);
 }
 article h1{
   font-size: 150%;
@@ -78,4 +77,6 @@ section{
 }
 body{
   background:rgba(37,37,38,1);
+  background-image: url("background.png");
+
 }
