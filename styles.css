@@ -10,6 +10,7 @@
   position: fixed;
   background:rgba(42,43,45,1);
   margin: 0em auto;
+  z-index: 1;
 }
 #HeadBar h1{
   font-size: 200%;
@@ -48,15 +49,23 @@
   background: rgba(0,232,167,1);
   color: rgba(42,43,45,1);
 }
-article h1{
+
+/* Main Content */
+#PageContent{
+  top:10em;
+  left: 7em;
+  right: 1em;
+  position:absolute;
+}
+#PageContent h1{
   font-size: 150%;
   color:rgba(220,91,33,1);
 }
-ul{
+#PageContent ul{
   margin: 0.5em;
   padding: 0.5em;
 }
-section{
+#PageContent section{
   margin: 0.5em;
   padding:0.5em;
   border-radius: 10px;
@@ -66,17 +75,21 @@ section{
   background: rgba(222,222,219,1);
   text-align: left;
 }
-#PageContent{
-  top: 10em;
-  left: 7em;
-  right: 1em;
-  position:absolute;
-}
 #PageContent p{
   padding:0.5em;
 }
+#products button{
+  display: inline;
+  width: 10em;
+  height: 5em;
+  border: hidden;
+}
+#products li{
+list-style-type: none;
+display: inline;
+}
+/*Background*/
 body{
   background:rgba(37,37,38,1);
   background-image: url("background.png");
-
 }
