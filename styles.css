@@ -13,7 +13,7 @@
 }
 #HeadBar h1{
   font-size: 200%;
-  color:rgba(84,171,143,1);
+  color:rgba(0,232,167,1);
   text-indent: 2em;
 }
 #HeadBar p{
@@ -45,7 +45,7 @@
   margin:0.25em;
 }
 #navigation a:hover, button:hover{
-  background: rgba(84,171,143,1);
+  background: rgba(0,232,167,1);
   color: rgba(42,43,45,1);
 }
 article h1{
